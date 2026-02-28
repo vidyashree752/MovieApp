@@ -6,10 +6,7 @@ export default function UserRating({ movieId }) {
   const [userRating, setUserRating] = useState(0);
   const [hasRated, setHasRated] = useState(false);
 
-  const handleRating = (value) => {
-    setUserRating(value);
-    // In real app: save to backend
-  };
+ 
 
   return (
     <Box sx={{ mt: 3, p: 2, bgcolor: 'background.paper', borderRadius: 2 }}>
